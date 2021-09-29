@@ -8,7 +8,7 @@ def getACrossPattern(firstSymbol, secondSymbol):
     print(cross_template.format(firstSymbol, secondSymbol, secondSymbol, firstSymbol))
 
 
-user_symbol_1 = input("Please enter a symbol >>> ")
-user_symbol_2 = input("Please enter a second symbol >>> ")
+firstSymbol = input("Please enter a symbol >>> ")
+secondSymbol = input("Please enter a second symbol >>> ")
 
-getACrossPattern(user_symbol_1, user_symbol_2)
+getACrossPattern(firstSymbol, secondSymbol)
